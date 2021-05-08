@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 header {
     background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     color: white;
@@ -66,6 +71,7 @@ nav {
     justify-content: center;
 }
 
+/* <<<<<<< HEAD */
 .menu-icon {
     display: none;
 }
@@ -110,3 +116,76 @@ footer li {
     cursor: pointer;
     opacity: 1;
 }
+/* ======= */
+.main-sections {
+    position: relative;
+    text-align: center;
+    padding: 2rem 1.5rem;
+    color: #1f3f5b;
+    margin: 2rem 0;
+}
+
+.main-sections h1,h2{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.main-sections h1 {
+    font-size: 1.8rem;
+}
+  
+.main-sections h2 {
+    font-size: 1.5rem;
+}
+
+.section-container {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.section-one .img-container{
+    background-image: url("images/illustration-editor-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 850px;
+    position: relative;
+    left: 250px;
+}
+
+.section-one .content{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* >>>>>>> 0d0778ef7f3bb00a031c2816533cf07b1318bf24 */
+/* Coba section 3 */
+.section-three .img-container{
+    position: relative;
+    width: 850px;
+    right: 270px;
+}
+
+.section-three-container {
+    display: flex;
+    align-items: center;
+}
+
+.text-block-section-three {
+    padding-top: 40px;
+}
+
+.text-block-section-three h2{
+    margin-bottom: 20px;
+}
+
+.text-block-section-three p {
+    padding-bottom: 50px;
+    line-height: 25px;
+}
+
+.section-three .content {
+    position: relative;
+    right: 8rem;
+    text-align: left;
+}
+
