@@ -2,3 +2,7 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+}
