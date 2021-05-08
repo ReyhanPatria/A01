@@ -3,6 +3,11 @@
     padding: 0;
 }
 
+body{
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
 header {
     background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
     color: white;
@@ -95,14 +100,23 @@ nav {
     background-image: url("images/illustration-editor-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
-    width: 100%;
-    height: 850px;
+    width: 3000px;
+    height: 1000px;
     position: relative;
     left: 150px;
 }
 
 .section-one .content{
     font-family: 'Ubuntu', sans-serif;
-    
 }
 
+.text-block{
+    margin-top: 70px;
+    text-align: left;
+    padding-left: 100px;
+}
+
+.text-block p{
+    margin-top: 20px;
+    word-spacing: 5px;
+}
