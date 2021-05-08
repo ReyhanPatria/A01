@@ -17,12 +17,17 @@
         margin-top: 1.25rem;
     }
 
+    .menu-icon {
+        display: flex;
+        align-items: center;
+    }
+
     footer {
         flex-direction: column;
         text-align: center;
     }
 
-   footer img {
+    footer img {
         margin-bottom: 20px;
     }
 
