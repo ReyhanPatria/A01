@@ -2,3 +2,65 @@
     margin: 0;
     padding: 0;
 }
+
+header {
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
+    color: white;
+    border-bottom-left-radius: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    padding-bottom: 5rem;
+}
+
+nav {
+    padding: 0 3.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.nav-right {
+    display: flex;
+}
+
+.nav-item {
+    margin: 2.5rem 0 2.5rem 1.5rem;
+}
+
+.btn {
+    padding: 0.25rem 1.5rem;
+    border-radius: 2.5rem;
+}
+
+.btn:hover {
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+}
+
+.nav-list {
+    display: none;
+}
+
+.header-content {
+    padding: 5rem 0 2.5rem 0;
+}
+
+.header-content p {
+    margin-top: 1rem;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
