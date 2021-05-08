@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
 }
 
 header {
@@ -102,7 +104,39 @@ nav {
 }
 
 .section-one .content{
-    font-family: 'Ubuntu', sans-serif;
-    
+    font-family: 'Ubuntu', sans-serif; 
 }
+
+.section-two{
+    background: #2c2d3f;
+    background-image: url("images/bg-pattern-circles.svg");
+    background-position: -5rem -15rem;
+    background-repeat: no-repeat;
+    background-size: 500px 500px;
+    border-radius: 0 5rem 0 5rem;
+    color: white;
+}
+
+.section-two .img-container, .section-two h2, .section-two p{
+    position: relative;
+}
+
+.section-two .content {
+    font-family: 'Ubuntu', sans-serif; 
+    display: inline-block;
+    text-align: right;
+    width: 50%;
+    padding-bottom: 200px;
+    padding-left: 200px;
+}
+
+.section-two h2{
+    font-size: 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.section-two p{
+    font-size: 2rem;
+}
+
 
