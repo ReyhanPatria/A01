@@ -64,3 +64,40 @@ nav {
     display: flex;
     justify-content: center;
 }
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(240, 10%, 16%);
+    color: whitesmoke;
+    border-top-right-radius: 80px;
+    padding: 40px 20px 20px 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+footer img {
+    width: 80px;
+}
+
+footer li {
+    list-style: none;
+    font-size: 0.6rem;
+}
+
+.footer-nav-title {
+    padding-top: 8px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    opacity: 1;
+}
+
+.footer-nav-list {
+    margin-bottom: 8px;
+    opacity: 0.5;
+}
+
+.footer-nav-list:hover {
+    cursor: pointer;
+    opacity: 1;
+}
