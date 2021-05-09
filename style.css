@@ -126,17 +126,17 @@ nav {
     display: inline-block;
     text-align: right;
     width: 50%;
-    padding-bottom: 200px;
-    padding-left: 200px;
+    padding-bottom: 150px;
+    padding-left: 10px;
 }
 
 .section-two h2{
-    font-size: 3rem;
-    margin-bottom: 1.5rem;
+    font-size: 2rem;
+    margin-bottom: 1rem;
 }
 
 .section-two p{
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 
