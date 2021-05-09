@@ -30,9 +30,7 @@
         text-align: center;
         justify-content: center;
         padding: 0 6rem;
-
     }
-
 
     .section-two h2 {
         font-size: 1.5rem;
@@ -43,5 +41,77 @@
         font-size: 1rem;
         margin-bottom: 5rem;
     }
+    .section-one>.section-container {
+        font-family: 'Ubuntu', sans-serif; 
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        /* padding: 0  6rem; */
+    }
 
+    .section-one h1{
+        font-size: 1.5rem;
+        padding-right: 30px;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        
+    }
+
+    .section-one p{
+        font-size: 0.9rem;
+    }
+
+    .main-sections{
+        padding: 0 0 0 0;
+    }
+
+    .text-block{
+        padding-left: 30px;
+        padding-right: 60px;
+        text-align: center;
+        padding-top: 0;
+        margin-top: 20px;
+    }
+
+    .text-block h2{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #sec-one-img{
+        margin-top: 20px;
+        width: 50%;
+        padding-left: 3rem;
+        padding-right: 5rem;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        left: 20px;
+        height: 291.5px;
+    }
+    
+
+    #sec-one-content{
+        margin-top: 0px;
+    }
+
+    .menu-icon {
+        display: flex;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer img {
+        margin-bottom: 20px;
+    }
+
+    .footer-nav-title {
+        margin-top: 10px;
+    }
 }
