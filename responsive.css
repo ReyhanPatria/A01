@@ -18,7 +18,7 @@
     }
 
     .section-one>.section-container {
-        font-family: 'Ubuntu', sans-serif; 
+        font-family: 'Ubuntu', sans-serif;
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -26,23 +26,21 @@
         /* padding: 0  6rem; */
     }
 
-    .section-one h1{
+    .section-one h1 {
         font-size: 1.5rem;
-        padding-right: 30px;
         margin-top: 2rem;
         margin-bottom: 1rem;
-        
     }
 
-    .section-one p{
+    .section-one p {
         font-size: 0.9rem;
     }
 
-    .main-sections{
+    .main-sections {
         padding: 0 0 0 0;
     }
 
-    .text-block{
+    .text-block {
         padding-left: 30px;
         padding-right: 60px;
         text-align: center;
@@ -50,12 +48,12 @@
         margin-top: 20px;
     }
 
-    .text-block h2{
+    .text-block h2 {
         margin-top: 30px;
         margin-bottom: 30px;
     }
 
-    #sec-one-img{
+    #sec-one-img {
         margin-top: 20px;
         width: 50%;
         padding-left: 3rem;
@@ -67,9 +65,9 @@
         left: 20px;
         height: 291.5px;
     }
-    
 
-    #sec-one-content{
+
+    #sec-one-content {
         margin-top: 0px;
     }
 
