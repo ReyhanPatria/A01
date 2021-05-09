@@ -51,6 +51,7 @@ nav {
 .btn:hover {
     background-color: white;
     color: hsl(353, 100%, 62%);
+    cursor: pointer;
 }
 
 .nav-list {
@@ -119,4 +120,48 @@ nav {
 .text-block p{
     margin-top: 20px;
     word-spacing: 5px;
+
+.menu-icon {
+    display: none;
+}
+
+.menu-icon:hover {
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: hsl(240, 10%, 16%);
+    color: whitesmoke;
+    border-top-right-radius: 80px;
+    padding: 40px 20px 20px 20px;
+    font-family: 'Overpass', sans-serif;
+}
+
+footer img {
+    width: 80px;
+}
+
+footer li {
+    list-style: none;
+    font-size: 0.6rem;
+}
+
+.footer-nav-title {
+    padding-top: 8px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 0.8rem;
+    opacity: 1;
+}
+
+.footer-nav-list {
+    margin-bottom: 8px;
+    opacity: 0.5;
+}
+
+.footer-nav-list:hover {
+    cursor: pointer;
+    opacity: 1;
 }

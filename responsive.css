@@ -73,4 +73,21 @@
         margin-top: 0px;
     }
 
+    .menu-icon {
+        display: flex;
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer img {
+        margin-bottom: 20px;
+    }
+
+    .footer-nav-title {
+        margin-top: 10px;
+    }
 }
