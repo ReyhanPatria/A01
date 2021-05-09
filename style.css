@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-body{
+body {
     overflow-x: hidden;
     overflow-y: auto;
 }
@@ -79,7 +79,8 @@ nav {
     margin: 2rem 0;
 }
 
-.main-sections h1,h2{
+.main-sections h1,
+h2 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
 }
@@ -87,7 +88,7 @@ nav {
 .main-sections h1 {
     font-size: 1.8rem;
 }
-  
+
 .main-sections h2 {
     font-size: 1.5rem;
 }
@@ -97,7 +98,7 @@ nav {
     flex-direction: row-reverse;
 }
 
-.section-one .img-container{
+.section-one .img-container {
     background-image: url("images/illustration-editor-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -107,19 +108,20 @@ nav {
     left: 150px;
 }
 
-.section-one .content{
+.section-one .content {
     font-family: 'Ubuntu', sans-serif;
 }
 
-.text-block{
+.text-block {
     margin-top: 70px;
     text-align: left;
-    padding-left: 100px; 
+    padding-left: 100px;
 }
 
-.text-block p{
+.text-block p {
     margin-top: 20px;
     word-spacing: 5px;
+}
 
 .menu-icon {
     display: none;
