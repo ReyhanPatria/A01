@@ -75,7 +75,8 @@ nav {
     margin: 2rem 0;
 }
 
-.main-sections h1,h2{
+.main-sections h1,
+h2 {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
 }
@@ -83,7 +84,7 @@ nav {
 .main-sections h1 {
     font-size: 1.8rem;
 }
-  
+
 .main-sections h2 {
     font-size: 1.5rem;
 }
@@ -93,7 +94,7 @@ nav {
     flex-direction: row-reverse;
 }
 
-.section-one .img-container{
+.section-one .img-container {
     background-image: url("images/illustration-editor-desktop.svg");
     background-size: contain;
     background-repeat: no-repeat;
@@ -103,11 +104,11 @@ nav {
     left: 150px;
 }
 
-.section-one .content{
-    font-family: 'Ubuntu', sans-serif; 
+.section-one .content {
+    font-family: 'Ubuntu', sans-serif;
 }
 
-.section-two{
+.section-two {
     background: #2c2d3f;
     background-image: url("images/bg-pattern-circles.svg");
     background-position: -5rem -15rem;
@@ -117,12 +118,14 @@ nav {
     color: white;
 }
 
-.section-two .img-container, .section-two h2, .section-two p{
+.section-two .img-container,
+.section-two h2,
+.section-two p {
     position: relative;
 }
 
 .section-two .content {
-    font-family: 'Ubuntu', sans-serif; 
+    font-family: 'Ubuntu', sans-serif;
     display: inline-block;
     text-align: right;
     width: 50%;
@@ -130,13 +133,11 @@ nav {
     padding-left: 10px;
 }
 
-.section-two h2{
+.section-two h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
 }
 
-.section-two p{
+.section-two p {
     font-size: 1.5rem;
 }
-
-
