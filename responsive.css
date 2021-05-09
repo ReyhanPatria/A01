@@ -47,13 +47,14 @@
 
     .section-three {
         margin-top: 3rem;
-    }
-
-    .section-three-container {
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+    
+    .section-three .img-container {
+        width: 100%;
     }
 
     .text-block-section-three h2 {
