@@ -105,7 +105,6 @@ h2 {
     background-size: contain;
     background-repeat: no-repeat;
     width: 3000px;
-    height: 1000px;
     position: relative;
     left: 150px;
 }
@@ -147,16 +146,31 @@ h2 {
 .section-two p {
     font-size: 1.5rem;
 }
-  
+
+/* Section 3 */
+.section-three {
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+}
+
+.section-three .img-container {
+    background-image: url("images/illustration-laptop-desktop.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 3000px;
+    position: relative;
+}
+
 .text-block {
     margin-top: 70px;
     text-align: left;
-    padding-left: 100px;
 }
 
 .text-block p {
     margin-top: 20px;
     word-spacing: 5px;
+    padding-right: 5rem;
 }
 
 .menu-icon {
