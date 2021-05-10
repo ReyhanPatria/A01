@@ -147,7 +147,7 @@ h2 {
 .section-two p {
     font-size: 1.5rem;
 }
-  
+
 .text-block {
     margin-top: 70px;
     text-align: left;
@@ -202,4 +202,31 @@ footer li {
 .footer-nav-list:hover {
     cursor: pointer;
     opacity: 1;
+}
+
+/* Animations CSS */
+.elementToFadeInAndOut {
+    animation: fadeinout 1s linear;
+    opacity: 1;
+}
+
+@keyframes fadeinout {
+    50% {
+        opacity: 0;
+    }
+}
+
+.float {
+    position: relative;
+    animation: floatBubble 2s normal ease-out;
+}
+
+@keyframes floatBubble {
+    0% {
+        top: 500px;
+    }
+
+    100% {
+        top: 0px;
+    }
 }
