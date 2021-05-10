@@ -111,6 +111,7 @@ h2 {
 
 .section-one .content {
     font-family: 'Ubuntu', sans-serif;
+    padding-left: 5rem;
 }
 
 .section-two {
@@ -216,4 +217,31 @@ footer li {
 .footer-nav-list:hover {
     cursor: pointer;
     opacity: 1;
+}
+
+/* Animations CSS */
+.elementToFadeInAndOut {
+    animation: fadeinout 1s linear;
+    opacity: 1;
+}
+
+@keyframes fadeinout {
+    50% {
+        opacity: 0;
+    }
+}
+
+.float {
+    position: relative;
+    animation: floatBubble 2s normal ease-out;
+}
+
+@keyframes floatBubble {
+    0% {
+        top: 500px;
+    }
+
+    100% {
+        top: 0px;
+    }
 }
